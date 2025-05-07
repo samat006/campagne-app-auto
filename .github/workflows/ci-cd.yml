@@ -20,9 +20,9 @@ jobs:
     - name: Deploy to server
       uses: appleboy/ssh-action@v0.1.6
       with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USER }}
-        key: ${{ secrets.SSH_KEY }}
+        host: ${{ secrets.13.48.127.189 }}
+        username: ${{ secrets.samat006 }}
+        key: ${{ secrets.a2ssecret }}
         script: |
           cd campagne-app
           docker-compose down
