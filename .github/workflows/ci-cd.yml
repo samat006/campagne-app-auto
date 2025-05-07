@@ -43,4 +43,4 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         script: |
           # Check that the containers are running
-          docker ps
+          sudo docker ps
